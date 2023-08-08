@@ -22,11 +22,10 @@ public class RoateArray {
 	 
 	 static void rotateArr2(int arr[], int d, int n) {
 		 reverse(arr, 0, n-1);
-//		 System.out.println(Arrays.toString(arr));
+		 System.out.println(Arrays.toString(arr));
 		 reverse(arr, 0, n-1-d);
-//		 System.out.println(Arrays.toString(arr));
+		 System.out.println(Arrays.toString(arr));
 		 reverse(arr, n-d, n-1);
-//		 reverse(arr, n-d+1, n);
 	 }
 	 
 	 static void reverse(int arr[],int start, int end) {
