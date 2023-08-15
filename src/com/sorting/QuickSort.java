@@ -166,10 +166,11 @@ public class QuickSort {
 		int arr[] = {3,5,7,8,2,4};
         int arr2[] = { 12, 1, 78, 90, 57, 89, 56 };
         int k=3;
+        System.out.println(Arrays.toString(arr));
 		quickSort(arr, 0, arr.length-1);
-//		System.out.println(Arrays.toString(arr));
-		long da = 1; 
-		double sqrt = Math.sqrt(da);
+		System.out.println(Arrays.toString(arr));
+//		long da = 1; 
+//		double sqrt = Math.sqrt(da);
 //		System.out.println((int)Math.floor(sqrt));
 //		System.out.println(Arrays.toString(productExceptSelf(arr, 6)));
 //		System.out.println(nthFibonacci(2	));
@@ -180,9 +181,9 @@ public class QuickSort {
 //		}
 
 //		System.out.println("after loop"+i);
-		System.out.println(Arrays.toString(arr2));
-		ArrayList<Integer> max_of_subarrays = max_of_subarrays(arr2, arr2.length, k);
-		System.out.println("maz"+max_of_subarrays);
+//		System.out.println(Arrays.toString(arr2));
+//		ArrayList<Integer> max_of_subarrays = max_of_subarrays(arr2, arr2.length, k);
+//		System.out.println("maz"+max_of_subarrays);
 //		long[] printFibb = printFibb(6);
 //		System.out.println(Arrays.toString(printFibb));
 	}
