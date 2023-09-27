@@ -11,7 +11,6 @@ public class FindTripletsWithGivenSum {
 		
 		for (int i = 0; i < n-1; i++) {
 			int low = i+1, high= n-1, sum = k-arr[i];
-			HashSet<Integer> set = new HashSet<>();
 				
 				if (i==0 || (i>0 && arr[i]!=arr[i-1])) {
 					
@@ -49,8 +48,8 @@ public class FindTripletsWithGivenSum {
 	}
 	
 	public static void main(String[] args) {
-		
-		int[] arr = {0, -1, 2,2, -3, 1,1};
+		int arr[] = {-1,0,1,2,-1,-4};
+//		int[] arr = {0, -1, 2,2, -3, 1,1};
 		Arrays.sort(arr);
 		int N = arr.length;
 		findTriplets(arr, N, 0);

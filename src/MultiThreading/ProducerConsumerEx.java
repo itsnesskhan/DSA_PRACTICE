@@ -1,8 +1,5 @@
 package MultiThreading;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 class Product {
 	private int element;
 	boolean flag = false;

@@ -142,6 +142,12 @@ public class Employeeadjusment {
 //		map.forEach(m->System.out.println(m));
 		
 //		emplist.stream().mapToLong(e->e.getSalary()).average().getAsDouble();
+		
+		
+//		frequency count
+		int arr[]= {10,3,10,4,5,6,7,4};
+		Map<Integer,Long> collect = Arrays.stream(arr).boxed().collect(Collectors.groupingBy(item->item, Collectors.counting()));
+		System.out.println(collect);
 	}
 
 }
