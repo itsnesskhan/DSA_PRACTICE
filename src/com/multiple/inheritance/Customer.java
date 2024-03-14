@@ -14,7 +14,7 @@ public class Customer<E> implements Airtel,Idea {
 
 	@Override
 	public void takeCall() {
-		Airtel.super.takeCall();
+		Idea.super.takeCall();
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class Customer<E> implements Airtel,Idea {
 		List<Integer> collect = list.stream().map(e->e+5).collect(Collectors.toList());
 		System.out.println(collect);
 
-		Airtel.super.makeCall();
+		Idea.super.makeCall();
 	}
 	
 	

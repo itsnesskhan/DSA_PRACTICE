@@ -2,15 +2,15 @@ package com.java.concepts;
 
 class A{
 	
-	public void name() {
+	public static void name() {
 		System.out.println("a's name method");
 	}
 }
 
 class B extends A{
 	
-//	@Override cannot use overide not static method
-	public void name() {
+//	@Override //cannot use overide not static method
+	public static void name() {
 		System.out.println("b's name method");
 	}
 }
